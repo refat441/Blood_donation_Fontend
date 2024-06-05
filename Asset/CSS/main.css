@@ -1,0 +1,310 @@
+.search-section {
+    background: url('search-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.blood-groups .card {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-donors .card,
+.recent-agents .card {
+    height: 100%;
+}
+
+.happy-customers .card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Recent Donors in indax page */
+.profile-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: #dc3545;
+  }
+
+  .profile-title {
+    color: #dc3545;
+    font-size: 18px;
+  }
+
+  .profile-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #dc3545;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .profile-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: #dc3545;
+  }
+
+  .profile-button:hover,
+  .profile-link:hover {
+    opacity: 0.7;
+  }
+
+/* Custom styles for the Blood Bank page */
+.donors-section .card {
+    border-width: 2px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank donor detail page */
+.donor-detail-section .card {
+    border-width: 2px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank agents page */
+.agents-section .card {
+    border-width: 2px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank agent profile page */
+.agent-profile-section .card {
+    border-width: 2px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank blog page */
+.blog-section .card {
+    border-width: 1px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank blog post page */
+.blog-post-section .img-fluid {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank agent login page */
+.agent-login-section {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+/* Custom styles for the Blood Bank add donor page */
+.add-donor-section {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.newsletter {
+    background-color: #d9534f;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+nav ul.nav.flex-column {
+    margin-top: 20px;
+}
+
+nav ul.nav.flex-column .nav-link {
+    color: #000;
+}
+
+/* footer */
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .icon-container::before,
+  .icon-container::after {
+    content: "";
+    flex: 1;
+    border-top: 2px solid #dc3545;
+    margin: 0 10px;
+  }
+
+  .icon {
+    color: #dc3545;
+  }
+
+  .footer-column {
+    text-align: left;
+  }
+
+  .footer-column h5 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-column p,
+  .footer-column li,
+  .footer-column a {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #ddd;
+  }
+
+  .footer-column a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
