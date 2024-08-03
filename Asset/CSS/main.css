@@ -20,6 +20,17 @@
     max-width: 500px;
     margin: 0 auto;
 }
+/* SEARCH A DONOR IN YOUR AREA indax page */
+.custom-background {
+    background-image: url('Asset/img/League-of-Legends-Wild-Rift-tier-list-jungle.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust padding as needed */
+  }
+
+  .custom-background h2 {
+    color: #000; /* Text color */
+  }
 
 /* Recent Donors in indax page */
 .profile-card {
